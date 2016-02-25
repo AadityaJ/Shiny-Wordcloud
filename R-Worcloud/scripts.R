@@ -12,4 +12,4 @@ m = as.matrix(myDTM)
 sort(rowSums(m), decreasing = TRUE)
 pal <- brewer.pal(9,"YlGnBu")
 pal <- pal[-(1:4)]
-wordcloud(myCorpus, max.words = 100, random.order = FALSE,colors = pal)
+wordcloud(myCorpus, max.words = 100, random.order = FALSE,colors = brewer.pal(8, "Dark2"))
