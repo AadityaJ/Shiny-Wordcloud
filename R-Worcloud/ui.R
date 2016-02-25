@@ -1,7 +1,7 @@
 library(shiny)
 fluidPage(
   # Application title
-  titlePanel("Word Cloud"),
+  titlePanel("Word Cloud in R"),
   
   sidebarLayout(
     # Sidebar with a slider and selection inputs
@@ -20,7 +20,7 @@ fluidPage(
 
     # Show Word Cloud
     mainPanel(
-      plotOutput("plot")
+      plotOutput("plot",width = "900px",height = "500px")
     )
   )
 )
