@@ -6,7 +6,7 @@ fluidPage(
   sidebarLayout(
     # Sidebar with a slider and selection inputs
     sidebarPanel(
-      textInput("inText",  "Text input : ", value = "paste text here"),
+      textInput("inText",  "Text input : ",value = "paste text here"),
       actionButton("update", "Run It"),
       hr(),
       sliderInput("freq",
