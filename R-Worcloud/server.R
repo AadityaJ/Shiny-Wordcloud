@@ -6,7 +6,6 @@ function(input, output, session) {
     # malicious user could manipulate this value.
     #if (!(book %in% books))
     #  stop("Unknown book")
-    
     #text <- readLines(sprintf("./%s.txt.gz", book),
      #                 encoding="UTF-8")
     
@@ -28,6 +27,9 @@ function(input, output, session) {
     # Change when the "update" button is pressed...
     input$update
     # ...but not for anything else
+    validate(
+      need(input$inText != "", "Please select a data set")
+    )
     isolate({
       withProgress({
         setProgress(message = "Processing corpus...")
