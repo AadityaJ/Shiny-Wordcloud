@@ -27,3 +27,14 @@ $ runApp()
 Although make sure that when you are Running locally, the code relies on libraries :
 * [worcloud](https://cran.r-project.org/web/packages/wordcloud/index.html)
 * [tm](https://cran.r-project.org/web/packages/tm/index.html)
+
+### Contributions and Going Further
+Fell free to create your own branch
+```
+$ git checkout -b [name_of_your_new_branch]
+```
+To send a Pull Request please Contact:
+* Aaditya Jamuar ([@AadityaJ](https://github.com/AadityaJ/))</br>
+
+I would further (*later*) be working on a similar App which involves
+topic clouds : [link](https://dhs.stanford.edu/algorithmic-literacy/using-word-clouds-for-topic-modeling-results/).
